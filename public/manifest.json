@@ -22,5 +22,6 @@
       "matches": ["https://www.youtube.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "permissions": ["tabs"]
 }
