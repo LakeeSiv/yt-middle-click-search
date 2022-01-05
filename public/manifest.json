@@ -1,6 +1,6 @@
 {
   "name": "Youtube Middle Click Search",
-  "description": "Middle click the search buttin on YouTube to open your search in a new tab",
+  "description": "Middle click the search button on YouTube to open your search in a new tab",
   "manifest_version": 2,
   "version": "1.0.0",
   "icons": {
