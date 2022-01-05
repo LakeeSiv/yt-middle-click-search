@@ -1,4 +1,4 @@
-setTimeout(() => {
+window.onload = () => {
   const searchButton = document?.querySelector("button.ytd-searchbox");
 
   searchButton?.addEventListener("mousedown", (e: Event) => {
@@ -11,7 +11,7 @@ setTimeout(() => {
 
       const text = inputElement.value;
       const url = "https://www.youtube.com/results?search_query=" + text;
-      chrome.tabs.create({ url: url, active: false });
+      if (text) chrome.runtime.sendMessage({ url });
     }
   });
-}, 200);
+};
